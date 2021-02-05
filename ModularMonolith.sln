@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModularMonolith", "ModularMonolith\ModularMonolith.csproj", "{97EFF201-2B8C-4C12-9B08-B41A483E5514}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module1", "Module1\Module1.csproj", "{FC3BE009-BC76-41AD-A840-6D9ACE2F6BF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModularMonolith.Shared", "ModularMonolith.Shared\ModularMonolith.Shared.csproj", "{B9EBDF97-0EC6-46DD-8DC3-DDAE683D8443}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module2", "Module2\Module2.csproj", "{3E32D39E-5961-4A89-A664-07DCD18D35E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97EFF201-2B8C-4C12-9B08-B41A483E5514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97EFF201-2B8C-4C12-9B08-B41A483E5514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97EFF201-2B8C-4C12-9B08-B41A483E5514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97EFF201-2B8C-4C12-9B08-B41A483E5514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC3BE009-BC76-41AD-A840-6D9ACE2F6BF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC3BE009-BC76-41AD-A840-6D9ACE2F6BF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC3BE009-BC76-41AD-A840-6D9ACE2F6BF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC3BE009-BC76-41AD-A840-6D9ACE2F6BF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9EBDF97-0EC6-46DD-8DC3-DDAE683D8443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9EBDF97-0EC6-46DD-8DC3-DDAE683D8443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9EBDF97-0EC6-46DD-8DC3-DDAE683D8443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9EBDF97-0EC6-46DD-8DC3-DDAE683D8443}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E32D39E-5961-4A89-A664-07DCD18D35E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E32D39E-5961-4A89-A664-07DCD18D35E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E32D39E-5961-4A89-A664-07DCD18D35E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E32D39E-5961-4A89-A664-07DCD18D35E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
