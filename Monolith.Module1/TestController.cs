@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Monolith.Module1.Shared;
 
 namespace Monolith.Module1
 {

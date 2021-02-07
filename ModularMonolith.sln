@@ -8,6 +8,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monolith.Shared", "Monolith
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monolith.Module2", "Monolith.Module2\Monolith.Module2.csproj", "{3E32D39E-5961-4A89-A664-07DCD18D35E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monolith.Module1.Shared", "Monolith.Module1.Shared\Monolith.Module1.Shared.csproj", "{2B0CAD70-637B-4083-BF9B-2B99AF7FBF0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Module1", "Module1", "{8849A697-4DD0-4F03-AB8E-C194771FD5F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Module2", "Module2", "{C514EE23-4534-4035-AC24-3795054A4FF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +36,14 @@ Global
 		{3E32D39E-5961-4A89-A664-07DCD18D35E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E32D39E-5961-4A89-A664-07DCD18D35E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E32D39E-5961-4A89-A664-07DCD18D35E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B0CAD70-637B-4083-BF9B-2B99AF7FBF0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B0CAD70-637B-4083-BF9B-2B99AF7FBF0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B0CAD70-637B-4083-BF9B-2B99AF7FBF0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B0CAD70-637B-4083-BF9B-2B99AF7FBF0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FC3BE009-BC76-41AD-A840-6D9ACE2F6BF2} = {8849A697-4DD0-4F03-AB8E-C194771FD5F4}
+		{2B0CAD70-637B-4083-BF9B-2B99AF7FBF0D} = {8849A697-4DD0-4F03-AB8E-C194771FD5F4}
+		{3E32D39E-5961-4A89-A664-07DCD18D35E3} = {C514EE23-4534-4035-AC24-3795054A4FF4}
 	EndGlobalSection
 EndGlobal

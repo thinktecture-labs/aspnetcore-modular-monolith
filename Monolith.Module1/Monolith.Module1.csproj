@@ -5,15 +5,16 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <FrameworkReference Include="Microsoft.AspNetCore.App"/>
+        <FrameworkReference Include="Microsoft.AspNetCore.App" />
     </ItemGroup>
 
     <ItemGroup>
-        <Folder Include="Properties"/>
+        <Folder Include="Properties" />
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\Monolith.Shared\Monolith.Shared.csproj"/>
+        <ProjectReference Include="..\Monolith.Module1.Shared\Monolith.Module1.Shared.csproj" />
+        <ProjectReference Include="..\Monolith.Shared\Monolith.Shared.csproj" />
     </ItemGroup>
 
 </Project>
