@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc.ApplicationParts;
 using Microsoft.Extensions.DependencyInjection;
-using ModularMonolith.Shared;
+using Monolith.Shared;
 
-namespace ModularMonolith
+namespace Monolith.Host
 {
     public static class ModuleServiceCollection
     {

@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc.ApplicationModels;
 
-namespace ModularMonolith
+namespace Monolith.Host
 {
     /// <summary>
     /// Adds the route prefix to all actions 

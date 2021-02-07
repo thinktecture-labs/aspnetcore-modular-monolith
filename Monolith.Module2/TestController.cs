@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace Module2
+namespace Monolith.Module2
 {
     [Route("[module]/[controller]")]
     internal class TestController : Controller

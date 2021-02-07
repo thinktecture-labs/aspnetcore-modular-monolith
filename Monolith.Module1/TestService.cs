@@ -1,4 +1,4 @@
-namespace Module1
+namespace Monolith.Module1
 {
     internal class TestService : ITestService
     {

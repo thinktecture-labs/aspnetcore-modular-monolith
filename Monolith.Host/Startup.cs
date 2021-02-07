@@ -8,7 +8,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 
-namespace ModularMonolith
+namespace Monolith.Host
 {
     public class Startup
     {

@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 
-namespace ModularMonolith
+namespace Monolith.Host
 {
     /// <summary>
     /// Post configure options implementation so we can inject <seealso cref="Module"/> and pass it to
