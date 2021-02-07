@@ -33,6 +33,8 @@ namespace Monolith.Host
                 // Add feature provider to allow "internal" controller
                 manager.FeatureProviders.Add(new InternalControllerFeatureProvider());
             });
+
+            // Register a convention allowing to us to prefix routes to modules.
             services.AddTransient<IPostConfigureOptions<MvcOptions>, ModuleRoutingMvcOptionsPostConfigure>();
 
             // Adds module1 with the route prefix module-1
